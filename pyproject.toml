@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "browser-use>=0.1.40",
+    "firecrawl>=1.15.0",
     "langchain-openai>=0.3.1",
 ]

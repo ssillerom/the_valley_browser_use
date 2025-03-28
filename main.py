@@ -13,7 +13,7 @@ browser = Browser(
 
 # Create the agent with your configured browser
 agent = Agent(
-    task="Entra en linkedin y haz un post haciendo un post sobre como se puede aplicar los MCP servers para hacer agentes en una aseguradora, usa emojis y hazlo divertido ",
+    task="Entra en linkedin, usa mi cuenta de google para iniciar sesion y haz un post haciendo un post sobre como se puede aplicar los MCP Servers",
     llm=ChatOpenAI(model='gpt-4o'),
     browser=browser,
 )
